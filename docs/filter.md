@@ -1,4 +1,4 @@
-# v-on
+# filter
 
 <vuep template="#example"></vuep>
 
