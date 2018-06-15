@@ -13,7 +13,7 @@ vm.$emit()
 
 ### 取消订阅事件
 ```
-vm.off()	
+vm.$off()	
 ```
 
 # 如何在SPA页面中构建全局事件中心
@@ -28,5 +28,5 @@ Vue.prototype.$bus = new Vue();
 vm.$bus.$on();
 vm.$bus.$once();
 vm.$bus.$emit();
-vm.$bus.off()
+vm.$bus.$off()
 ```
